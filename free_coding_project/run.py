@@ -27,10 +27,10 @@ if __name__ == "__main__":
     my_budget.addExpense(30, "Gas", datetime(2025, 4, 8))
     my_budget.addExpense(24, "Eating out", datetime(2025, 4, 9))
     my_budget.addExpense(10, "Eating out", datetime(2025, 4, 7))
-    my_budget.addExpense(15, "Eating out", datetime(2025, 4, 8))
+    my_budget.addExpense(80, "Eating out", datetime(2025, 4, 8))
 
     # my_budget.plotExpenses()
-    my_budget.exp_category_perc()
+    my_budget.pieExpences()
 
     # print(free_checking)
     # trans1 = Transaction("Walmart", 200, free_checking, "Groceries", "hahaha")

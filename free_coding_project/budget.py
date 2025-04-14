@@ -63,7 +63,7 @@ class Budget:
         plt.title('Expense overview')
         plt.savefig("data_vis/expense_plot.png")
 
-    def exp_category_perc(self):
+    def pieExpences(self):
         cat_values = {}
         # sum_expenses = {}
         total_expense = 0
@@ -90,9 +90,6 @@ class Budget:
         
         plt.pie(cat_perc, labels=categories)
         plt.savefig("data_vis/expense_pie.png")
-
-    def pieExpences(self):
-        pass
 
     def plotExpenseDistribution(self):
         pass
